@@ -1,7 +1,7 @@
 # Assessing the Accuracy of Neural Network Models for Predicting Fracture Length, Width and Height
 
 ## Overview
-This repository contains a Jupyter notebook implementing a neural network model that predicts the fracture dimensions in a hydraulic fracturing operation based on four input parameters. The synthetic data used for the model was generated using a simplified version of the Perkins-Kern-Nordgren (PKN) model.
+This repository contains a Jupyter notebook implementing a neural network model that predicts the fracture dimensions in a hydraulic fracturing operation based on four input parameters. The synthetic data used for the model was generated using an empirical model.
 
 The notebook uses the 'numpy', 'sklearn', 'tensorflow.keras', and 'matplotlib' libraries to generate and preprocess the data, define and train the neural network model, and visualize the results.
 
@@ -10,9 +10,9 @@ Hydraulic fracturing, commonly known as fracking, is a process of injecting a mi
 
 In recent years, the use of machine learning techniques, particularly artificial neural networks (ANN), has gained popularity in the field of hydraulic fracturing for predicting various parameters such as fracture length, width, height, and proppant distribution.
 
-This repository contains a Jupyter Notebook that demonstrates how to use an ANN to predict the fracture dimensions in hydraulic fracturing based on the Perkins-Kern-Nordgren (PKN) model. The steps involved in this notebook are as follows:
+This repository contains a Jupyter Notebook that demonstrates how to use an ANN to predict the fracture dimensions in hydraulic fracturing based on an empirical method. The steps involved in this notebook are as follows:
 
-**1- Generate Synthetic Data**: We first generate synthetic data using the PKN model, which considers various input parameters such as injection rate, fluid viscosity, proppant concentration, and rock properties to predict the fracture dimensions.
+**1- Generate Synthetic Data**: We first generate synthetic data using an empirical model, which considers various input parameters such as injection rate, fluid viscosity, proppant concentration, and rock properties to predict the fracture dimensions.
 
 **2- Data Preprocessing**: We then preprocess the generated data by normalizing the input and output variables using the StandardScaler function from sklearn.preprocessing.
 
