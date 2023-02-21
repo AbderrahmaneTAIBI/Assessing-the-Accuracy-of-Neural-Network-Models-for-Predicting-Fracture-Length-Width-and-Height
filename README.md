@@ -10,7 +10,7 @@ Hydraulic fracturing, commonly known as fracking, is a process of injecting a mi
 
 In recent years, the use of machine learning techniques, particularly artificial neural networks (ANN), has gained popularity in the field of hydraulic fracturing for predicting various parameters such as fracture length, width, height, and proppant distribution.
 
-This repository contains a Jupyter Notebook that demonstrates how to use an ANN to predict the fracture dimensions in hydraulic fracturing based on an empirical method. The steps involved in this notebook are as follows:
+This repository contains a Jupyter Notebook that demonstrates how to use an ANN to predict the fracture dimensions in hydraulic fracturing based on an empirical method, and hunce show of the capacity of ANN into **predicting multiple Outputs** . The steps involved in this notebook are as follows:
 
 **1- Generate Synthetic Data**: We first generate synthetic data using an empirical model, which considers various input parameters such as injection rate, fluid viscosity, proppant concentration, and rock properties to predict the fracture dimensions.
 
