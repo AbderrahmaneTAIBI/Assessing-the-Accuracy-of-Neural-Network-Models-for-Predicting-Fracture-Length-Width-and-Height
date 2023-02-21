@@ -1,7 +1,7 @@
 # Assessing the Accuracy of Neural Network Models for Predicting Fracture Length, Width and Height
 
 ## Overview
-This repository contains a Jupyter notebook implementing a neural network model that predicts the fracture dimensions in a hydraulic fracturing operation based on four input parameters. The synthetic data used for the model was generated using the Perkins-Kern-Nordgren (PKN) model.
+This repository contains a Jupyter notebook implementing a neural network model that predicts the fracture dimensions in a hydraulic fracturing operation based on four input parameters. The synthetic data used for the model was generated using a simplified version of the Perkins-Kern-Nordgren (PKN) model.
 
 The notebook uses the 'numpy', 'sklearn', 'tensorflow.keras', and 'matplotlib' libraries to generate and preprocess the data, define and train the neural network model, and visualize the results.
 
